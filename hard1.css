@@ -308,6 +308,13 @@ hr{
     display: flex;
     padding: 20px;
     justify-content: space-between;
+    align-items: center;
+    background-color: #F6EEE8;
+    border: 1px solid rgb(228, 214, 214);
+    margin: 0 25 0 0;
+    width: 92%;
+    justify-self: center;
+    border-radius: 20px;
 }
 .bottom h1{
     font-size: 10px;
