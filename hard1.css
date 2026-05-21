@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F38F41;
+}
+main{
+    background-color: #FBF3EC;
+    margin: 1%;
+    width: 70%;
+    border-radius: 10px;
+}
+nav{
+    border: 1px solid rgb(222, 210, 210);
+    border-radius: 5px;
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-content{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.nav-content .left{
+    display: flex;
+    width: 50%;
+    gap: 8%;
+}
+.btn{
+    width: fit-content;
+    border: none;
+    background: none;
+    font-size: 40%;
+    text-transform: uppercase;
+}
+.right{
+    display: flex;
+    margin-right: 5%;
+    gap: 50%;
+}
+
+hr{
+    border-color: rgb(255, 255, 255);
+    margin:0 20%;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+   padding: 2% 5%;
+    gap: 1%;
+}
+.container-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+.container #new{
+    color: #ec7317;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50%;
+}
+.container #or{
+    color: #ec7317;
+    font-weight: 900;
+}
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(16, 15, 15);
+    line-height: 1;
+}
+.container #price{
+    color: rgb(16, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    font-weight: 700;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#description{
+    font-size: 60%;
+    color: rgb(28, 26, 26);
+}
+#description-para{
+    color: rgb(73, 69, 69);
+}
+.description p{
+    font-size: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#read-more{
+    font-size: 60%;
+    border: none;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 5px;
+}
+#read-more i{
+    color: #ec7317;
+    font-size: 150%;
+}
+.left-btns{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    gap: 10px;
+}
+.container-center{
+    margin-left: 5%;
+    width: 100%;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .btns{
+    border: none;
+    width: 100%;
+    font-size: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.arrow{
+    font-size: 140%;
+}
+
+
+.tag{
+    display: flex;
+    font-size: 35%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgb(40, 35, 35);
+}
+
+.container-right{
+    width: 100%;
+    margin-top: 7%;
+    margin-left: 0%;
+    flex: 1;
+}
+.size{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.size h1{
+    font-size: 65%;
+}
+.tags{
+    display: flex;
+    gap: 5px;
+}
+.tags p{display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 2%;
+    width: 20px;
+    height: 20px;
+    font-size: 80%;
+    height: 20px;
+    border-radius: 2px;
+}
+.size-btn{
+    font-size: 40%;
+    border: none;
+    color: rgb(30, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+#size-bt{
+    font-size: 200%;
+}
+.j-size{
+    background-color: #F4ECE4;
+}
+.j-active{
+    background-color:#EA6005 ;
+}
+
+
+.color{
+    width: 100%;
+    display: flex;
+    left: 20%;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.color-option{
+    display: flex;
+    gap: 10px;
+    justify-content: center ;width: 100%;
+    width: 150px;
+    flex-wrap: wrap;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.option p{
+    font-size: 50%;
+}
+.option img{
+    border-radius: 5px;
+}
+.color h1{
+    font-size: 80%;
+}
+
+
+
+.right-btns{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.right-btn{
+    display: flex;
+    gap: 25px;
+    width: fit-content;
+    white-space: nowrap;
+}
+#wishlist{
+    font-size: 7px;
+    padding: 5px;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid rgb(225, 221, 221);
+}
+#bag{
+    font-size: 10px;
+    color: white;
+    padding: 5px 5px ;
+    border: none;
+    background-color: #EA6005;
+    border-radius: 10px;
+}
+
+
+.medium{
+    width: 92%;
+    display: flex;
+    gap: 5px;
+    margin: 0 25 0 0;
+    background-color: #F6EEE8;
+    border: 1px solid rgb(228, 214, 214);
+    padding: 15px 15px 15px 15px;
+    justify-self: center;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.medium img{
+    width: 70px;
+    border-radius: 5px;
+    height: 90px;
+}
+.medium-content{
+    display: flex;
+    gap: 5px;
+}
+.left-content{
+    margin: 2px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.left-content h2{
+    font-size: 55%;
+}
+.left-content p{
+    font-size: 50%;
+    line-height: 8px;
+}
+
+
+
+.bottom{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.bottom h1{
+    font-size: 10px;
+}
+.bottom p{
+    font-size: 8px;
+}
+.bottom-cnt1{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.bottom-cnt1 i{
+    font-size: 25px;
+}
+
+.bottom-cnt2{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.bottom-cnt2 i{
+    font-size: 25px;
+}
+
+.bottom-cnt3{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.bottom-cnt3 i{
+    font-size: 25px;
+}
+
+.bottom-cnt4{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.bottom-cnt4{
+    font-size: 25px;
+}
+
